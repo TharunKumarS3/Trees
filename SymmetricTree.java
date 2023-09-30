@@ -44,6 +44,7 @@ public class SymmetricTree {
             queue.offer(right.left);
 
         }
+        
         return true;
 
     }
