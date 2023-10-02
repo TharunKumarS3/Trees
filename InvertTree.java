@@ -4,7 +4,7 @@ public class InvertTree {
 
     public TreeNode invertTree(TreeNode node)
     {
-        if(root==null)
+        if(node==null)
         return null;
 
         //go till last node of left and right and return that node
